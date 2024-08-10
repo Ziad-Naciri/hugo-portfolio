@@ -14,51 +14,24 @@ This project involves developing a secure and high-performance personal portfoli
 
 ## TODO List
 
+### Setup and Configuration
+- [x] Install Hugo and dependencies.
+- [x] Configure VcXsrv for GUI applications.
+- [x] Initialize Hugo project.
+- [x] Install the Ananke theme.
+
 ### Project Initialization
-- [x] Install Hugo on Linux
-- [x] Install Go on Linux
-- [x] Install Dart Sass on Linux
+- [x] Create `config.toml` with initial settings.
+- [x] Create `content/_index.md` for the home page.
+- [x] Create `content/about.md` for the about page and set up routing.
 
-### Quick Start and Basic Setup
-- [x] Create a new Hugo site
-- [x] Add and configure a theme
-- [x] Create initial content
-- [x] Start Hugo server and verify setup
-- [ ] Build the site and generate static files
-
-### Development and Customization
-- [ ] Customize the theme to fit the portfolio design
-- [ ] Configure site settings in `config.toml`
-- [ ] Implement responsive design
-- [ ] Add additional content (e.g., About, Projects, Blog)
-
-### Security Implementation
-- [ ] Enable HTTPS with Netlify/CloudFlare
-- [ ] Add security headers (CSP, HSTS, X-Frame-Options, etc.)
-- [ ] Implement input validation and sanitization
-- [ ] Perform regular security audits using OWASP ZAP
-
-### Performance Optimization
-- [ ] Optimize images for performance
-- [ ] Implement lazy loading for images and other resources
-- [ ] Minify CSS and JavaScript files
-- [ ] Conduct performance testing with Google Lighthouse
-
-### Content Management and SEO
-- [ ] Integrate Netlify CMS for content management
-- [ ] Implement meta tags and schema markup for SEO
-- [ ] Generate and submit a sitemap
-
-### Analytics and Monitoring
-- [ ] Integrate Google Analytics for tracking
-- [ ] Implement Sentry for error tracking
-
-### Testing and Deployment
-- [ ] Write unit tests for custom components
-- [ ] Perform performance testing with Google Lighthouse
-- [ ] Conduct security testing with OWASP ZAP
-- [ ] Set up continuous deployment with Netlify/CloudFlare
-
+### Development and Deployment
+- [ ] Set up continuous deployment.
+- [ ] Implement security measures.
+- [ ] Optimize performance.
+- [ ] Integrate analytics and error tracking.
+- [ ] Perform testing and audits.
+- 
 ## Progress Tracking
 This README will be updated regularly to reflect the project's progress. Each completed task will be checked off to ensure all goals are met systematically.
 
