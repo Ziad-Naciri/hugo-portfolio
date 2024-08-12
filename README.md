@@ -24,6 +24,8 @@ This project involves developing a secure and high-performance personal portfoli
 - [x] Create `config.toml` with initial settings.
 - [x] Create `content/_index.md` for the home page.
 - [x] Create `content/about.md` for the about page and set up routing.
+- [x] Create `content/projects.md` for the projects page and set up routing.
+- [x] Create `content/contact.md` for the contact page and set up routing.
 
 ### Development and Deployment
 - [ ] Set up continuous deployment.
@@ -31,7 +33,13 @@ This project involves developing a secure and high-performance personal portfoli
 - [ ] Optimize performance.
 - [ ] Integrate analytics and error tracking.
 - [ ] Perform testing and audits.
-- 
+
+## Page Routing
+- **Home Page**: Content from `content/_index.md` is displayed using `layouts/_default/list.html` or a custom `layouts/index.html`.
+- **About Page**: Content from `content/about.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
+- **Projects Page**: Content from `content/projects.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
+- **Contact Page**: Content from `content/contact.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
+
 ## Progress Tracking
 This README will be updated regularly to reflect the project's progress. Each completed task will be checked off to ensure all goals are met systematically.
 
