@@ -12,7 +12,7 @@ This project involves developing a secure and high-performance personal portfoli
 - **Git:** Version Control
 - **Snap:** Package Manager
 
-## TODO List
+## Project Progressive
 
 ### Setup and Configuration
 - [x] Install Hugo and dependencies.
