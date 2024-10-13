@@ -4,3 +4,12 @@
 [submodule "layouts/shortcodes/themes/ananke"]
 	path = layouts/shortcodes/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "gohugo-theme-ananke"]
+	path = gohugo-theme-ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "theme/raditian"]
+	path = theme/raditian
+	url = https://github.com/radity/raditian-free-hugo-theme.git
+[submodule "themes/raditian"]
+	path = themes/raditian
+	url = https://github.com/radity/raditian-free-hugo-theme.git

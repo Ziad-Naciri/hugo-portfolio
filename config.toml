@@ -1,7 +1,105 @@
-baseURL = "http://localhost:1313/"
+baseURL = "http://127.0.0.1:1313/"
 languageCode = "en-us"
 title = "My Secure Hugo Portfolio"
-theme = "ananke"
+theme = "raditian"
+
+ 
+# Plugins
+[params.plugins]
+
+# CSS Plugins
+[[params.plugins.css]]
+  URL = "/css/main.css"
+[[params.plugins.css]]
+  URL = "/css/rad-icons.css"
+[[params.plugins.css]]
+  URL = "/css/custom.css"
+
+# JS Plugins
+[[params.plugins.js]]
+  URL = "/js/rad-animations.js"
+[[params.plugins.js]]
+  URL = "/js/sticky-header.js"
+[[params.plugins.js]]
+  URL = "/js/library/fontfaceobserver.js"
+
+
+
+# navigation
+[menu]
+  [[menu.header]]
+  name = "Home"
+  URL = "#home"
+  weight = 1
+  
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Projects"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Projects"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
 
 [params]
-  mainSections = ["about"]
+
+  sections = ["showcase", "about", "education", "experience","client-and-work", "contact"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Naciri"
+    text2 = "Ziad"
+
+  [params.footer]
+        copyright = " © Raditian"
+        author = "Ziad Naciri"
+        [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"
+        
+# security headers
+[server]
+  [[server.headers]]
+    for = '/**'
+    [server.headers.values]
+      Content-Security-Policy = '''
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' 'unsafe-eval' http://localhost:1313;
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data:;
+        connect-src 'self' http://localhost:1313;
+        font-src 'self';
+        frame-src 'none';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      '''
+      Referrer-Policy = 'strict-origin-when-cross-origin'
+      X-Content-Type-Options = 'nosniff'
+      X-Frame-Options = 'DENY'
+      X-XSS-Protection = '1; mode=block'

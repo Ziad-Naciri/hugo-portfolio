@@ -34,3 +34,5 @@ yarn-error.log*
 
 # SASS
 .sass-cache/
+
+.env
