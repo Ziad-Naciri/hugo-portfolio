@@ -28,8 +28,8 @@ This project involves developing a secure and high-performance personal portfoli
 - [x] Create `content/contact.md` for the contact page and set up routing.
 
 ### Development and Deployment
-- [ ] Set up continuous deployment.
-- [ ] Implement security measures.
+- [x] Set up continuous deployment.
+- [x] Implement security measures.
 - [ ] Optimize performance.
 - [ ] Integrate analytics and error tracking.
 - [ ] Perform testing and audits.
