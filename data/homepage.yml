@@ -1,0 +1,235 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Ziad."
+  subtitle: "Software engineer"
+  description: "A dedicated software engineer with a passion for building impactful technology. My journey in software development has equipped me with skills to tackle complex challenges and deliver robust solutions."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase.png"
+  imageMobile:
+    x: "img/showcase/showcase.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/ziad-naciri/"
+
+    - icon: "github"
+      URL: "https://github.com/ZiadNaciri"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: |
+    <p class="lead">
+      A passionate web developer with a keen interest in 
+      frontend development and cybersecurity. I am currently pursuing my bachelor's
+      degree and working as a student at a <a style="color:orange;"
+      href="https://www.persistent-security.net/">Persistent Security Industries</a>, 
+      where I focus on frontend development and gradually transition to more advanced adversary simulation tasks.
+    </p>
+     
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/ziad-naciri/"
+  image:
+    x: "img/who-am-i/ziad.jpg"
+    _2x: "img/who-am-i/ziad.jpg"
+
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Université Moulay Ismail Meknès"
+      year: "2017 - 2020"
+      degree: "Bachelor of Science - BS, Computer Engineering"
+
+    - university: "FH Aachen University of Applied Sciences"
+      year: "2021 - 2023"
+      degree: "Bachelor of Science - BS, Angewandte Mathematik und Informatik"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 2+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/ziad-naciri/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/files/cv.pdf"
+
+  items:
+    - title: "Frontend Developer - Work Student"
+      company: "Persistent Security Industries"
+      duration: "Mar 2024 - Present"
+
+    - title: "Werkstudent"
+      company: "X41 D-Sec GmbH"
+      duration: "Jan 2023 - Feb 2024"
+
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  clients:
+      - logo:
+          x: "img/clients/aws.svg"
+          _2x: "img/clients/aws.svg"
+        alt: "AWS"
+        url: "https://aws.amazon.com/"
+
+      - logo:
+          x: "img/clients/java.svg"
+          _2x: "img/clients/java.svg"
+        alt: "Java"
+        url: "https://www.oracle.com/java/"
+
+      - logo:
+          x: "img/clients/nextjs.svg"
+          _2x: "img/clients/nextjs.svg"
+        alt: "Nextjs"
+        url: "https://nextjs.org/"
+
+      - logo:
+          x: "img/clients/python.svg"
+          _2x: "img/clients/python.svg"
+        alt: "Python"
+        url: "https://www.python.org/"
+
+      - logo:
+          x: "img/clients/go.svg"
+          _2x: "img/clients/go.svg"
+        alt: "Golang"
+        url: "https://golang.org/"
+
+      - logo:
+          x: "img/clients/c++.svg"
+          _2x: "img/clients/c++.svg"
+        alt: "C++"
+        url: "https://www.cplusplus.com/"
+
+      - logo:
+          x: "img/clients/nuxt-js.svg"
+          _2x: "img/clients/nuxt-js.svg"
+        alt: "Nuxtjs"
+        url: "https://nuxtjs.org/"
+      
+      - logo:
+          x: "img/clients/nginx.svg"
+          _2x: "img/clients/nginx.svg"
+        alt: "Nginx"
+        url: "https://nginx.org/"
+      
+    
+        
+  works:
+    - title: "Secure Personal Portfolio"
+      description: "Developed a secure, high-performance personal portfolio using Hugo, a Go-based Static Site Generator. Incorporated advanced security measures and performance optimizations."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://github.com/Ziad-Naciri/hugo-portfolio"
+      image:
+        x: "img/works/Portfolio.png"
+        _2x: "img/works/Portfolio.png"
+      is_even: true
+
+    - title: "Todo App - Pwa"
+      description: "Developed a Todo App using React with firebase as backend service, and pwa for offline support."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://github.com/ZiadNaciri/todo-list-pwa"
+      image:
+        x: "img/works/todo.png"
+        _2x: "img/works/todo.png"
+      is_even: false
+
+    - title: "Interactive Dashboard"
+      description: " Created an interactive dashboard using React and D3.js for data visualization. The project showcases dynamic charts and real-time data updates."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/dashboard.png"
+        _2x: "img/works/dashboard.png"
+      is_even: true
+    
+    - title: "Contributions to GitHub Projects"
+      description: "Contributed to various open-source projects, including bug fixes, feature enhancements, and documentation improvements. Active participant in the developer community."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "https://github.com/Ziad-Naciri"
+      image:
+        x: "img/works/contribution.jpg"
+        _2x: "img/works/contribution.jpg"
+      is_even: false
+
+    - title: "E-commerce Website - Freelance"
+      description: "Developed a fully functional e-commerce website using Jakarta EE and Spring Boot. Optimized website performance and improved customer experience."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/ecommerce.png"
+        _2x: "img/works/ecommerce.png"
+      is_even: true
+
+    - title: "University Website"
+      description: "Developed a fully operational university website using HTML, CSS, and JavaScript, with Java EE for the back-end and MySQL as the database, hosted on XAMPP. Enhanced website performance and optimized the user experience."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/University.png"
+        _2x: "img/works/University.png"
+      is_even: false
+    
+    - title: "Containers Factory Website"
+      description: "Designed and maintained a fully functional website for a Containers Factory, utilizing HTML and Bootstrap for the front-end, with Java EE for the back-end, and MySQL as the database."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/cd.png"
+        _2x: "img/works/cd.png"
+      is_even: true
+
+    
+      
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: ""
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Hi, i think we need to design system for our company X, how soon can you hop on a call to 
+    discuss this?"
+   
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+ 

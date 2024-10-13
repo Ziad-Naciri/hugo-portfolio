@@ -1,0 +1,11 @@
+security:
+  # Content Security Policy (CSP) settings
+  csp:
+    # Define the CSP policy
+    policy: "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+    # Set to false to enforce the policy, true to only report violations
+    report_only: false
+  # Permissions Policy settings
+  permissions:
+    # Define the Permissions Policy to control which features can be used
+    policy: "geolocation=(), microphone=(), camera=()"
