@@ -3,7 +3,12 @@ languageCode = "en-us"
 title = "My Secure Hugo Portfolio"
 theme = "raditian"
 
- 
+
+#Theme Module 
+[module]
+  [[module.imports]]
+    path = "github.com/radity/raditian-free-hugo-theme"
+
 # Plugins
 [params.plugins]
 
@@ -22,8 +27,6 @@ theme = "raditian"
   URL = "/js/sticky-header.js"
 [[params.plugins.js]]
   URL = "/js/library/fontfaceobserver.js"
-
-
 
 # navigation
 [menu]
@@ -65,9 +68,7 @@ theme = "raditian"
 
 
 [params]
-
   sections = ["showcase", "about", "education", "experience","client-and-work", "contact"]
-
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
