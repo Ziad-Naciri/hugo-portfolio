@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:1313/"
+baseURL = "https://ziad-naciri.netlify.app/"
 languageCode = "en-us"
 title = "My Secure Hugo Portfolio"
 theme = "raditian"
