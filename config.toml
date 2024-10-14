@@ -5,7 +5,9 @@ theme = "raditian"
 
 
 #Theme Module 
-
+[module]
+  [[module.imports]]
+    path = "github.com/radity/raditian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
