@@ -1,3 +1,11 @@
+# head
+head:
+  title: "Ziad Naciri | Portfolio"
+  sectionTitles:
+  about: "About Me | Ziad Naciri"
+  projects: "Projects | Ziad Naciri"
+  contact: "Contact | Ziad Naciri"
+
 # showcase
 showcase:
   enable: true
