@@ -38,7 +38,7 @@ class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
       <div class="col-12">
         {{ range .Site.Data.homepage.showcase.socialLinks }}
         <a href="{{ .URL | absURL }}" target="_blank"
-          ><i class="icon-{{ .icon }}-line"></i
+          ><i class="icon-{{ .icon }}-line" style="font-size: 2rem;" ></i
         ></a>
         {{ end }}
       </div>
