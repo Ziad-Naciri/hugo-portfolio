@@ -18,7 +18,7 @@ This project involves developing a secure and high-performance personal portfoli
 - [x] Install Hugo and dependencies.
 - [x] Configure VcXsrv for GUI applications.
 - [x] Initialize Hugo project.
-- [x] Install the Ananke theme.
+- [x] Install the Raditian theme.
 
 ### Project Initialization
 - [x] Create `config.toml` with initial settings.
