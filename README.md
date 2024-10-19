@@ -30,9 +30,9 @@ This project involves developing a secure and high-performance personal portfoli
 ### Development and Deployment
 - [x] Set up continuous deployment.
 - [x] Implement security measures.
-- [ ] Optimize performance.
+- [x] Optimize performance.
 - [ ] Integrate analytics and error tracking.
-- [ ] Perform testing and audits.
+- [x] Perform testing and audits.
 
 ## Page Routing
 - **Home Page**: Content from `content/_index.md` is displayed using `layouts/_default/list.html` or a custom `layouts/index.html`.
