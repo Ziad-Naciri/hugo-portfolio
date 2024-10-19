@@ -70,7 +70,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "/files/cv.pdf"
+    URL: "#"
 
   items:
     - title: "Frontend Developer - Work Student"
