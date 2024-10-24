@@ -151,7 +151,7 @@ client_and_work:
       description: "Developed a secure, high-performance personal portfolio using Hugo, a Go-based Static Site Generator. Incorporated advanced security measures and performance optimizations."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "https://github.com/Ziad-Naciri/hugo-portfolio"
       image:
         x: "img/works/Portfolio.png"
@@ -162,7 +162,7 @@ client_and_work:
       description: "Developed a Todo App using React with firebase as backend service, and pwa for offline support."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "https://github.com/ZiadNaciri/todo-list-pwa"
       image:
         x: "img/works/todo.png"
@@ -173,7 +173,7 @@ client_and_work:
       description: " Created an interactive dashboard using React and D3.js for data visualization. The project showcases dynamic charts and real-time data updates."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "#"
       image:
         x: "img/works/dashboard.png"
@@ -184,7 +184,7 @@ client_and_work:
       description: "Contributed to various open-source projects, including bug fixes, feature enhancements, and documentation improvements. Active participant in the developer community."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "https://github.com/Ziad-Naciri"
       image:
         x: "img/works/contribution.jpg"
@@ -195,7 +195,7 @@ client_and_work:
       description: "Developed a fully functional e-commerce website using Jakarta EE and Spring Boot. Optimized website performance and improved customer experience."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "#"
       image:
         x: "img/works/ecommerce.png"
@@ -206,7 +206,7 @@ client_and_work:
       description: "Developed a fully operational university website using HTML, CSS, and JavaScript, with Java EE for the back-end and MySQL as the database, hosted on XAMPP. Enhanced website performance and optimized the user experience."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "#"
       image:
         x: "img/works/University.png"
@@ -217,7 +217,7 @@ client_and_work:
       description: "Designed and maintained a fully functional website for a Containers Factory, utilizing HTML and Bootstrap for the front-end, with Java EE for the back-end, and MySQL as the database."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
+        btnText: "Explore Project"
         URL: "#"
       image:
         x: "img/works/cd.png"
