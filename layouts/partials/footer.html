@@ -13,11 +13,11 @@
     <div class="footer__links">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a style="color: orangered;" class="nav-link" href="/">HOME</a>
+          <a style="color: orangered;" class="nav-link" href="#home">HOME</a>
         </li>
         {{ range .Site.Menus.footer }}
         <li class="nav-item">
-          <a class="nav-link" style="color: orangered;" href="{{ .URL | absURL }}">{{ .Name | upper }}</a>
+          <a class="nav-link" style="color: orangered;" href="{{ .URL }}">{{ .Name | upper }}</a>
         </li>
         {{ end }}
       </ul>
