@@ -8,7 +8,7 @@
             </p>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" netlify>
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify>
                         <input type="hidden" name="form-name" value="contact" />
                         <input type="hidden" name="bot-field" />
                         <div class="row">
@@ -29,9 +29,6 @@
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                            
-                            <div data-netlify-recaptcha="true"></div>
-                            
                                 <button type="submit" class="btn btn-primary-contact">
                                     <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
                                     {{ .Site.Data.homepage.contact.button.btnText }}
@@ -44,6 +41,4 @@
         </div>
     </div>
 </section>
-<!-- Include reCAPTCHA Script -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {{ end }}

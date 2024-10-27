@@ -89,12 +89,12 @@ theme = "raditian"
   [server.headers.values]
     Content-Security-Policy = '''
       default-src 'self' http://localhost:1313;
-      script-src 'self' 'unsafe-hashes' http://localhost:1313 https://www.google.com/recaptcha/api.js https://www.gstatic.com/recaptcha/releases/lqsTZ5beIbCkK4uGEGv9JmUR/recaptcha__en.js 'sha256-ZUBnUDfsX/mhVi0F0de6Opxnc1S4t7vaSqZs0/XW+R0=' 'sha256-AcZHBRd1XuxlEnarbX/geO9CkqhjUcvk6yLPqe+p2Nw=' 'sha256-0HI3nX1RARjFCqzL9ivUeKOYwI+pzT3ArGHEWpZvntE=';
+      script-src 'self' 'unsafe-hashes' http://localhost:1313 'sha256-ZUBnUDfsX/mhVi0F0de6Opxnc1S4t7vaSqZs0/XW+R0=' 'sha256-AcZHBRd1XuxlEnarbX/geO9CkqhjUcvk6yLPqe+p2Nw=' 'sha256-0HI3nX1RARjFCqzL9ivUeKOYwI+pzT3ArGHEWpZvntE=';
       style-src 'self' 'unsafe-hashes' http://localhost:1313 'sha256-+sqQHf8rxT096ZQ9VWHKpYDYKFgKHuXqAZFwjNkoN4o=' 'sha256-cUMPOnX0WtlUKrw+/R5VCI3qjs/AWY5gK+dmAMXdwKs=' 'sha256-ePAfP+mBzf8gl35Rk9/S9+iTHFcaqlh8RAg+sIQK8D0=' 'sha256-OLjQZuNLrofgRx4Dof0UewFKTRILJwrytJD7Mi/Pnj8=' 'sha256-xVEK7gcaeJAqZHgUjP0ktYmyVcW5brxPqD47mQeu5uw=' 'sha256-c4Oga/RiXVo9o/jXx8Awar60XCk/14unWIuJn3ADXoM=' 'sha256-CaW5ag67LQMx6MNoV1YygREmDA0MUfWUPNliIv9Yu9I=' 'sha256-lqaUTp4AFIo+P2WUs81N56QrKUfr0hkCPnj7cX5YE1I=' 'sha256-FkzUySBbFSseDEQBJ+4mR6Yr6icVGf+h59BjeTFkj7c=' 'sha256-7iPNlaODM66q5HCworTsCb1Aso8wnHf/2T6uP/ci4x4=';
       img-src 'self' data:;
       connect-src 'self' http://localhost:1313;
       font-src 'self';
-      frame-src 'none';
+      frame-src 'self' http://localhost:1313;
       object-src 'none';
       base-uri 'self';
       form-action 'self';
