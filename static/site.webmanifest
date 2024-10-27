@@ -1,6 +1,7 @@
 {
   "name": "Ziad Naciri | Portfolio",
   "short_name": "Ziad Naciri",
+  "description": "Ziad Naciri's portfolio",
   "icons": [
     {
       "src": "/img/favicon/android-chrome-192x192.png",
@@ -13,6 +14,7 @@
       "type": "image/png"
     }
   ],
+  "start_url": "https://ziad-naciri.netlify.app/",
   "theme_color": "#ff4500",
   "background_color": "#131313",
   "display": "standalone"
