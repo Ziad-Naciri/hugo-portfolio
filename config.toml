@@ -68,6 +68,7 @@ theme = "raditian"
 
 
 [params]
+  description = "Ziad Naciri's Portfolio made with Hugo."
   sections = ["showcase", "about", "education", "experience","client-and-work", "contact"]
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
@@ -104,3 +105,30 @@ theme = "raditian"
   X-Content-Type-Options = 'nosniff'
   X-Frame-Options = 'DENY'
   X-XSS-Protection = '1; mode=block'
+
+[[server.headers]]
+  for = "/css/*"
+  [server.headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[server.headers]]
+  for = "/js/*"
+  [server.headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[server.headers]]
+  for = "/img/*"
+  [server.headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[server.headers]]
+  for = "/**.html"
+  [server.headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[server.headers]]
+  for = "/contact" # or wherever your form resides
+  [server.headers.values]
+  Cache-Control = "no-store, no-cache, must-revalidate, proxy-revalidate"
+  Pragma = "no-cache"
+  Expires = "0"
