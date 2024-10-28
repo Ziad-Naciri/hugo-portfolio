@@ -25,9 +25,11 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
+      name: "LinkedIn"
       URL: "https://www.linkedin.com/in/ziad-naciri/"
 
     - icon: "github"
+      name: "GitHub"
       URL: "https://github.com/ZiadNaciri"
 
 
