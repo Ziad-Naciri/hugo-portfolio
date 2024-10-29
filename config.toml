@@ -2,7 +2,7 @@ baseURL = "https://ziad-naciri.netlify.app/"
 languageCode = "en-us"
 title = "Ziad Naciri | Portfolio"
 theme = "raditian"
-
+enableRobotsTXT = true
 
 #Theme Module 
 [module]
