@@ -11,7 +11,7 @@ showcase:
   enable: true
   title: "Hello, I’m Ziad."
   subtitle: "Software engineer"
-  description: "A dedicated software engineer with a passion for building impactful technology. My journey in software development has equipped me with skills to tackle complex challenges and deliver robust solutions."
+  description: "A dedicated software engineer with a strong passion for building impactful technology. My journey in software development has equipped me with multiple skills to tackle complex challenges and deliver robust solutions."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase.png"
@@ -80,7 +80,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "/files/Ziad-Naciri_Resume.pdf"
 
   items:
     - title: "Frontend Developer - Work Student"
@@ -176,7 +176,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "#"
+        URL: "https://github.com/Ziad-Naciri"
       image:
         x: "img/works/dashboard.png"
         _2x: "img/works/dashboard.png"
@@ -198,7 +198,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "#"
+        URL: "https://github.com/Ziad-Naciri"
       image:
         x: "img/works/ecommerce.png"
         _2x: "img/works/ecommerce.png"
@@ -209,7 +209,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "#"
+        URL: "https://github.com/Ziad-Naciri"
       image:
         x: "img/works/University.png"
         _2x: "img/works/University.png"
@@ -220,7 +220,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "#"
+        URL: "https://github.com/Ziad-Naciri"
       image:
         x: "img/works/cd.png"
         _2x: "img/works/cd.png"
@@ -236,7 +236,7 @@ contact:
     action: ""
     full_name: "Full Name"
     email: "Email Address"
-    message: "Hi, i think we need to design system for our company X, how soon can you hop on a call to 
+    message: "Hi, I think we need to design/optimize a system for our company X, how soon can you hop on a call to 
     discuss this?"
    
   button:
