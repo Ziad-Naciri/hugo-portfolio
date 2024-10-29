@@ -1,46 +1,91 @@
 # Secure Portfolio Website with Hugo
 
-## Project Description
-This project involves developing a secure and high-performance personal portfolio website using Hugo, a fast and flexible static site generator written in Go. The portfolio will showcase advanced web development techniques and best practices in security, performance optimization, and modern web technologies.
+## Project Overview
+
+This project is a secure and high-performance personal portfolio website developed using [Hugo](https://gohugo.io/), a fast and flexible static site generator written in Go. The portfolio demonstrates modern web development practices, including security hardening, performance optimization, and responsiveness. It is designed to showcase advanced features and best practices, with a particular focus on security and efficiency.
+
+**Live Demo:** [https://ziad-naciri.netlify.app/](https://ziad-naciri.netlify.app/)  
+**Repository:** [GitHub - Hugo Portfolio](https://github.com/Ziad-Naciri/hugo-portfolio/)
+
+---
 
 ## Technologies Used
-- **Hugo:** Static Site Generator
-- **Go:** Programming Language
-- **Dart Sass:** CSS Preprocessor
-- **Netlify/CloudFlare:** Deployment Platform
-- **Markdown:** Content Management
-- **Git:** Version Control
-- **Snap:** Package Manager
+- **Hugo**: Static Site Generator
+- **Go**: Core Language for Hugo
+- **Dart Sass**: CSS Preprocessor
+- **Netlify/Cloudflare**: Deployment and DNS management
+- **Markdown**: Content Management
+- **Git**: Version Control
+- **Snap**: Package Manager for Installation
 
-## Project Progressive
+---
 
-### Setup and Configuration
-- [x] Install Hugo and dependencies.
-- [x] Configure VcXsrv for GUI applications.
-- [x] Initialize Hugo project.
-- [x] Install the Raditian theme.
+## Project Features and Objectives
 
-### Project Initialization
-- [x] Create `config.toml` with initial settings.
-- [x] Create `content/_index.md` for the home page.
-- [x] Create `content/about.md` for the about page and set up routing.
-- [x] Create `content/projects.md` for the projects page and set up routing.
-- [x] Create `content/contact.md` for the contact page and set up routing.
+### Design and Responsiveness
+- **Modern, responsive design** for optimal viewing on mobile, tablet, and desktop.
+- **Figma wireframes** for initial design phase, ensuring a consistent look and feel.
 
-### Development and Deployment
-- [x] Set up continuous deployment.
-- [x] Implement security measures.
-- [x] Optimize performance.
-- [ ] Integrate analytics and error tracking.
-- [x] Perform testing and audits.
+### Security Implementation
+- **HTTPS**: Ensures secure, encrypted connections.
+- **Content Security Policy (CSP)**: Blocks unauthorized scripts and limits resource loading to trusted origins, with the use of hash-based policies.
+- **Security Headers**: Configured headers like `X-Content-Type-Options`, `X-Frame-Options`, and `X-XSS-Protection` to mitigate potential vulnerabilities.
+- **CSRF Mitigation**: Implemented honeypot fields and Netlify Spam Filters using Akismet to prevent spam and bot submissions in forms.
+- **OWASP ZAP Testing**: Performed regular security audits, ensuring a clean scan with only non-impactful informational alerts.
 
-## Page Routing
-- **Home Page**: Content from `content/_index.md` is displayed using `layouts/_default/list.html` or a custom `layouts/index.html`.
-- **About Page**: Content from `content/about.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
-- **Projects Page**: Content from `content/projects.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
-- **Contact Page**: Content from `content/contact.md` is routed via `config.toml` and displayed using `layouts/_default/single.html`.
+### Performance Optimization
+- **Image Optimization**: Images are compressed and served in modern formats like WebP to save bandwidth.
+- **Lazy Loading**: Improves load times by deferring off-screen images.
+- **Code Minification**: HTML, CSS, and JavaScript are minified to reduce file size and improve load times.
+- **Cache-Control for Static Assets**: Configured caching for CSS, JS, and image assets, setting `Cache-Control: public, max-age=31536000, immutable` to reduce server load and improve repeat load performance.
 
-## Progress Tracking
-This README will be updated regularly to reflect the project's progress. Each completed task will be checked off to ensure all goals are met systematically.
+### SEO and Analytics
+- **Meta Tags and Schema**: Configured meta descriptions, Open Graph tags, and JSON-LD schema for better search engine indexing and social media sharing.
+- **Netlify Analytics**: Provides insights into website traffic and visitor behavior.
+- **Google Lighthouse**: Achieved high performance scores on PageSpeed Insights, with detailed [test results here](https://pagespeed.web.dev/analysis/https-ziad-naciri-netlify-app/wykzch4isv?form_factor=desktop).
 
-For more detailed information and guidance, refer to the [official Hugo documentation](https://gohugo.io/documentation/).
+---
+
+## Project Setup and Configuration
+
+### Initial Setup
+1. **Install Hugo and Dependencies**  
+   ```bash
+   snap install hugo --channel=extended
+   ```
+2. **Clone Repository**  
+   ```bash
+   git clone https://github.com/Ziad-Naciri/hugo-portfolio/
+   cd hugo-portfolio
+   ```
+3. **Install Raditian Theme**  
+   Follow the [Raditian Theme Installation Guide](https://github.com/radity/raditian-free-hugo-theme) to configure the theme.
+
+### Running Locally
+To test the project locally:
+1. Run the Hugo server:
+   ```bash
+   hugo server -D
+   ```
+2. Access the local site at `http://localhost:1313`.
+
+---
+
+## Testing and Optimization
+
+### Testing
+- **OWASP ZAP**: Regular scans to identify security vulnerabilities, with adjustments made to mitigate any identified risks.
+- **Google Lighthouse**: Tests performed with high scores achieved in Performance (99), Accessibility (100), Best Practices (100), and SEO (100).
+
+### Performance Enhancements
+- **Render-blocking Resources**: Defer non-critical CSS/JS files to optimize loading.
+- **Minify Resources**: HTML, CSS, and JavaScript are minified to improve load times.
+
+---
+
+## Future Improvements
+- **Add CSP Reporting**: Use a `report-uri` endpoint for tracking CSP violations.
+- **Error Tracking**: Explore alternative tracking systems for SSG-compatible error monitoring.
+
+---
+
