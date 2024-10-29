@@ -68,7 +68,7 @@ enableRobotsTXT = true
 
 
 [params]
-  description = "Ziad Naciri's Portfolio made with Hugo."
+  description = "Ziad Naciri's Portfolio."
   sections = ["showcase", "about", "education", "experience","client-and-work", "contact"]
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
