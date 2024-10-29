@@ -176,7 +176,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "https://github.com/Ziad-Naciri"
+        URL: "https://github.com/ZiadNaciri"
       image:
         x: "img/works/dashboard.png"
         _2x: "img/works/dashboard.png"
@@ -187,7 +187,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "https://github.com/Ziad-Naciri"
+        URL: "https://github.com/ZiadNaciri"
       image:
         x: "img/works/contribution.jpg"
         _2x: "img/works/contribution.jpg"
@@ -198,7 +198,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "https://github.com/Ziad-Naciri"
+        URL: "https://github.com/ZiadNaciri"
       image:
         x: "img/works/ecommerce.png"
         _2x: "img/works/ecommerce.png"
@@ -209,7 +209,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "https://github.com/Ziad-Naciri"
+        URL: "https://github.com/ZiadNaciri"
       image:
         x: "img/works/University.png"
         _2x: "img/works/University.png"
@@ -220,7 +220,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Explore Project"
-        URL: "https://github.com/Ziad-Naciri"
+        URL: "https://github.com/ZiadNaciri"
       image:
         x: "img/works/cd.png"
         _2x: "img/works/cd.png"
