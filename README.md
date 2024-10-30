@@ -87,8 +87,6 @@ To test the project locally:
 ---
 
 ## Future Improvements
-- **Add CSP Reporting**: Use a `report-uri` endpoint for tracking CSP violations.
-- **Error Tracking**: Explore alternative tracking systems for SSG-compatible error monitoring.
-
+- **Add CSP Reporting and Error Tracking**: Use a `report-uri` endpoint for tracking CSP violations.
 ---
 
