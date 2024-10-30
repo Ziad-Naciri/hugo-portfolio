@@ -5,7 +5,10 @@
 This project is a secure and high-performance personal portfolio website developed using [Hugo](https://gohugo.io/), a fast and flexible static site generator written in Go. The portfolio demonstrates modern web development practices, including security hardening, performance optimization, and responsiveness. It is designed to showcase advanced features and best practices, with a particular focus on security and efficiency.
 
 **Live Demo:** [https://ziad-naciri.netlify.app/](https://ziad-naciri.netlify.app/)  
-**Repository:** [GitHub - Hugo Portfolio](https://github.com/Ziad-Naciri/hugo-portfolio/)
+
+**Repository:** [GitHub - Hugo Portfolio](https://github.com/Ziad-Naciri/hugo-portfolio/)  
+
+**Project Guide:** [Portfolio Guide](https://github.com/Ziad-Naciri/portfolio-guide)  
 
 ---
 
