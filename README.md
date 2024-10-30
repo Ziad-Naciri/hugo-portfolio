@@ -16,7 +16,7 @@ This project is a secure and high-performance personal portfolio website develop
 - **Hugo**: Static Site Generator
 - **Go**: Core Language for Hugo
 - **Dart Sass**: CSS Preprocessor
-- **Netlify/Cloudflare**: Deployment and DNS management
+- **Netlify**: Deployment and DNS management
 - **Markdown**: Content Management
 - **Git**: Version Control
 - **Snap**: Package Manager for Installation
