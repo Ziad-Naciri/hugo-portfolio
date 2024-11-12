@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Ziad Naciri | Portfolio"
 theme = "raditian"
 enableRobotsTXT = true
+googleAnalytics = "G-B64MBRM7ZF"
 
 #Theme Module 
 [module]
@@ -70,7 +71,7 @@ enableRobotsTXT = true
 [params]
   description = "Ziad Naciri's Portfolio."
   sections = ["showcase", "about", "education", "experience","client-and-work", "contact"]
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "GTM-K6LKPTMQ" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Naciri"
