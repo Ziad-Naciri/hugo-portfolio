@@ -17,6 +17,7 @@ This project is a secure and high-performance personal portfolio website develop
 - **Go**: Core Language for Hugo
 - **Dart Sass**: CSS Preprocessor
 - **Netlify**: Deployment and DNS management
+- **Google Analytics**: Analytics and traffic management
 - **Markdown**: Content Management
 - **Git**: Version Control
 - **Snap**: Package Manager for Installation
@@ -45,6 +46,7 @@ This project is a secure and high-performance personal portfolio website develop
 ### SEO and Analytics
 - **Meta Tags and Schema**: Configured meta descriptions, Open Graph tags, and JSON-LD schema for better search engine indexing and social media sharing.
 - **Netlify Analytics**: Provides insights into website traffic and visitor behavior.
+- **Google Analytics**: Provides indepth summary of the portfolios traffic and visitor behavior.
 - **Google Lighthouse**: Achieved high performance scores on PageSpeed Insights, with detailed [test results here](https://pagespeed.web.dev/analysis/https-ziad-naciri-netlify-app/wykzch4isv?form_factor=desktop).
 
 ---
