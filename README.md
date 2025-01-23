@@ -28,13 +28,12 @@ This project is a secure and high-performance personal portfolio website develop
 
 ### Design and Responsiveness
 - **Modern, responsive design** for optimal viewing on mobile, tablet, and desktop.
-- **Figma wireframes** for initial design phase, ensuring a consistent look and feel.
 
 ### Security Implementation
 - **HTTPS**: Ensures secure, encrypted connections.
 - **Content Security Policy (CSP)**: Blocks unauthorized scripts and limits resource loading to trusted origins, with the use of hash-based policies.
 - **Security Headers**: Configured headers like `X-Content-Type-Options`, `X-Frame-Options`, and `X-XSS-Protection` to mitigate potential vulnerabilities.
-- **CSRF Mitigation**: Implemented honeypot fields and Netlify Spam Filters using Akismet to prevent spam and bot submissions in forms.
+- **Cross-site request forgery (CSRF) Mitigation**: Implemented honeypot fields and Netlify Spam Filters using Akismet to prevent spam and bot submissions in forms.
 - **OWASP ZAP Testing**: Performed regular security audits, ensuring a clean scan with only non-impactful informational alerts.
 
 ### Performance Optimization
